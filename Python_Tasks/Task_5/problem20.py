@@ -12,7 +12,7 @@ for case in range(t):
 
     left = 0                # index of the leftmost block
     right = n - 1           # index of the rightmost block
-    previous = 1000000000   # the last block placed (start with a huge number)
+    previous = 2 ** 31    # the last block placed (start bigger than any block)
     possible = True
 
     while left <= right:
