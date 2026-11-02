@@ -12,12 +12,8 @@ def average(array):
     # average = sum / how many
     return total / len(unique_heights)
 
-
-n = int(input())
-text_values = input().split()
-arr = []
-for item in text_values:
-    arr.append(int(item))
-
-result = average(arr)
-print(result)
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
