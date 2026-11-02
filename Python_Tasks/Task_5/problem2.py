@@ -7,8 +7,8 @@ def split_and_join(line):
     # join() puts the words back together with "-" between them
     new_line = "-".join(words)
     return new_line
-
-
-line = input()
-result = split_and_join(line)
-print(result)
+    
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
