@@ -21,6 +21,6 @@ def minion_game(string):
     else:
         print("Draw")
 
-
-s = input()
-minion_game(s)
+if __name__ == '__main__':
+    s = input()
+    minion_game(s)
