@@ -13,7 +13,7 @@ def swap_case(s):
             result = result + ch
     return result
 
-
-s = input()
-result = swap_case(s)
-print(result)
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
