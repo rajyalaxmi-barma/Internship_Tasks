@@ -1,7 +1,7 @@
 # Problem 13: Nested Lists
 # Link: https://www.hackerrank.com/challenges/nested-list/problem
 
-n = int(input())
+n=int(input())
 
 names = []
 grades = []
