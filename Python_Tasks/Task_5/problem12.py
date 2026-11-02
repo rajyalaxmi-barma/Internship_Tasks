@@ -1,8 +1,13 @@
-# Problem 12: Capitalize!
-# Link: https://www.hackerrank.com/challenges/capitalize/problem
+#!/bin/python3
 
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the solve function below.
 def solve(s):
-    # split on single spaces so extra spaces are kept
     words = s.split(" ")
 
     new_words = []
@@ -16,8 +21,14 @@ def solve(s):
             new_words.append(first_letter + rest)
 
     return " ".join(new_words)
+    
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
+    s = input()
 
-s = input()
-result = solve(s)
-print(result)
+    result = solve(s)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
