@@ -1,8 +1,9 @@
 # Problem 15: Lists
 # Link: https://www.hackerrank.com/challenges/python-lists/problem
 
-N = int(input())
-my_list = []
+if __name__ == '__main__':
+    N = int(input())
+    my_list = []
 
 for i in range(N):
     command = input().split()
