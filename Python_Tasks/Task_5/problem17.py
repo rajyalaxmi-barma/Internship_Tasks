@@ -25,3 +25,4 @@ for number in arr:
         happiness = happiness - 1
 
 print(happiness)
+
