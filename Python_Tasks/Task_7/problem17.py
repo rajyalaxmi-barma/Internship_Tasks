@@ -1,4 +1,4 @@
-# Problem: Separate the Numbers
+# Problem17: Separate the Numbers
 # Link: https://www.hackerrank.com/challenges/separate-the-numbers/problem
 
 #!/bin/python3
