@@ -1,4 +1,4 @@
-# Problem: Pangrams
+# Problem6: Pangrams
 # Link: https://www.hackerrank.com/challenges/pangrams/problem
 
 #!/bin/python3
